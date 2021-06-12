@@ -18,4 +18,6 @@ bool
 
 
 
+echo is slightly faster then print
+
 

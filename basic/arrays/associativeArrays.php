@@ -6,6 +6,7 @@ $my_list = array(
     14 => 'dev',
     "no key value"
 );
+echo in_array('dfgh', $my_list );
 
 // print_r($my_list);
 
@@ -14,4 +15,6 @@ $my_list = array(
 // echo array_key_exists('last_key', $my_list);
 
 // echo in_array('mogi', $my_list); // 1
-echo in_array('dev', $my_list , true);
+// echo array_key_exists(14, $my_list); // 1
+// echo array_key_exists('last_key', $my_list); // 1
+
